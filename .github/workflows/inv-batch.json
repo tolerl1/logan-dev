@@ -1,0 +1,13 @@
+{
+    "Paths": {
+        "Quantity": 5,
+        "Items": [
+            "/index.html",
+            "/favicon.ico",
+            "/js",
+            "/img",
+            "/css"
+        ]
+    },
+    "CallerReference": "GitHub-Actions-ltd"
+}
