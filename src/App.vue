@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-    <b-navbar :fixed-top="true" slot="burger" type="is-light" :transparent="true">
+    <b-navbar :fixed-top=true slot="burger" type="is-light" :transparent=true aria-label="main navigation">
         <template slot="brand">
             <b-navbar-item tag="router-link" to="/">
-                <img src="@/assets/brand.svg" alt="Logan Toler" width="112" height="28">
+                <img src="./assets/brand.svg" alt="Logan Toler" width="112" height="28">
             </b-navbar-item>
         </template>
         <template slot="start" aria-label="menu" aria-expanded="false">
@@ -37,10 +37,11 @@ export default {
 
   #nav {
   a {
-    color: #2c3e50;
+    color: #000;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #2c3e50;
+      font-weight: bold;
     }
   }
 }

@@ -12,13 +12,7 @@
           </div>
         </section>
       </div>
-      <div class="aboutDetails">
-        <section class="section">
-          <div class="container">
-            <aboutDetails/>
-          </div>
-        </section>
-      </div>
+      <aboutDetails/>
       <foot/>
     </body>
   </div>

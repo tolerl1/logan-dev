@@ -8,18 +8,7 @@
 </template>
 
 <script>
-import banner from '@/components/banner.vue'
-export default {
-  name: 'Home',
-  components: {
-    banner
-  }
-}
-</script>
-
-<script>
 // @ is an alias to /src
-
 import banner from '@/components/banner.vue'
 import foot from '@/components/footer.vue'
 
