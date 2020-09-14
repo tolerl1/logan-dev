@@ -1,0 +1,42 @@
+// @import "../node_modules/bulma/bulma.sass";
+@import url('https://www.logan-toler.dev/font/inter.css');
+
+$knoxville-gradient: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+
+$navbar-item-hover-color:$knoxville-gradient;
+$navbar-background-color: $knoxville-gradient;
+$section-padding: 2rem 1.5rem;
+$primary: #293241;
+
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+
+//helpers
+// @import "~bulma/sass/helpers/_all.sass";
+@import "~bulma/sass/helpers/typography.sass";
+@import "~bulma/sass/helpers/spacing.sass";
+@import "~bulma/sass/helpers/position.sass";
+@import "~bulma/sass/helpers/visibility.sass";
+
+// @import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/elements/container.sass";
+@import "~bulma/sass/elements/title.sass";
+@import "~bulma/sass/components/navbar.sass";
+@import "~bulma/sass/layout/hero.sass";
+@import "~bulma/sass/layout/section.sass";
+
+
+$family-primary: 'Inter', 'Inter Var' sans-serif;
+// $size-2: is-size-2-mobile, is-size-2-touch, is-size-2-tablet, is-size-2-desktop, is-size-2-widescreen, is-size-2-fullhd;
+
+
+// Import Buefy styles
+@import "~buefy/src/scss/components/_navbar.scss";
+// @import "~buefy/src/scss/utils/_functions.scss";
+// @import "~buefy/src/scss/utils/_variables.scss";
+// @import "~buefy/src/scss/utils/_helpers.scss";
+// @import '~buefy/dist/buefy.css';
+@import "~bulma";
+// @import "~buefy/src/scss/buefy";
