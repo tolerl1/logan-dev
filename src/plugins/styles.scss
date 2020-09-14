@@ -33,10 +33,10 @@ $family-primary: 'Inter', 'Inter Var' sans-serif;
 
 
 // Import Buefy styles
-// @import "~buefy/src/scss/components/_navbar.scss";
+@import "~buefy/src/scss/components/_navbar.scss";
 // @import "~buefy/src/scss/utils/_functions.scss";
 // @import "~buefy/src/scss/utils/_variables.scss";
 // @import "~buefy/src/scss/utils/_helpers.scss";
 // @import '~buefy/dist/buefy.css';
 @import "~bulma";
-@import "~buefy/src/scss/buefy";
+// @import "~buefy/src/scss/buefy";
