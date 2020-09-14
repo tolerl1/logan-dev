@@ -1,5 +1,5 @@
 <template>
-<div class="footer">
+<div class="foot">
 <footer>
   <div class="content has-text-centered">
     <p>
@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'footer'
+  name: 'foot'
 }
 </script>
 
