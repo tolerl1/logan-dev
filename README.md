@@ -45,7 +45,7 @@ npm run serve
 npm run build
 ```
 ><p>Runs: vue-cli-service build --mode production --target app --modern</p>
-><p><em>Parameters can be modified under build-report in the package.json</em></p>
+><p><em>Parameters can be modified under build in the package.json</em></p>
 
 ### Compiles and minifies for production with report
 ```
