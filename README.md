@@ -10,15 +10,17 @@ Created using [Vue.js](https://vuejs.org/), [Bulma](https://bulma.io/) CSS frame
 add git cmd
 ```
 
-This project makes use of GitHub Actions, Workflow, Secrets to enable a CI/CD pipeline to AWS.
+### AWS and GitHub configurations
 
-### AWS CloudFormation
+This project makes use of GitHub Actions, Workflow, Secrets to enable a CI/CD pipeline to AWS. A CloudFormation template is provided to publish your web app. **If using the template, be aware that you could incur charges for the provisioned AWS resources.**
+
+#### AWS CloudFormation
 ```
 - Make any changes to the descriptions in CloudFormation template, if desired.
 - Deploy the CloudFormation template using the AWS console or cli.
 - Note the newly created S3 bucket's name and CloudFront distribution ID for the next step.
 ```
-### Secrets
+#### Secrets
 ```
 Add the following secrets in your GitHub repo's settings:
 - AWS_ACCESS_KEY_ID
