@@ -1,6 +1,6 @@
 # My Personal site
 <p>This is a work in progress, but will eventually showcase my projects by pulling data using the GitHub API, bio, and if available, the type of role I am seeking.</p>
-Created using [Vue.js](https://vuejs.org/), [Bulma](https://bulma.io/) CSS framework, and minimal use of [Buefy](https://buefy.org/) for it's navbar JS.
+<p>Created using [Vue.js](https://vuejs.org/), [Bulma](https://bulma.io/) CSS framework, and minimal use of [Buefy](https://buefy.org/) for it's navbar JS.</p>
 
 ## Project setup
 ```
