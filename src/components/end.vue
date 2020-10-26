@@ -1,5 +1,5 @@
 <template>
-<div class="foot">
+<div class="end">
 <footer>
   <div class="content has-text-centered">
     <p>
@@ -12,12 +12,12 @@
 
 <script>
 export default {
-  name: 'foot'
+  name: 'end'
 }
 </script>
 
 <style scoped>
-.footer {
+.end {
     padding: 1rem 2rem 1rem
 }
 </style>

@@ -1,15 +1,16 @@
 <template>
-  <div class="banner">
-    <section class="hero is-small is-primary is-bold">
-      <div class="hero-body">
-        <div class="level">
-          <div class="level-item has-text-centered">
-            <img src="@/assets/avatar.png" alt class="avatar" />
-          </div>
-          <div class="level-item has-text-centered">
-            <div>
-              <p class="name">Logan Toler</p>
-              <p class="subtitle">Cincinnati, OH | Charlotte, NC</p>
+<div class="banner">
+<section class="hero is-small is-primary is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-5">
+          <img src="@/assets/avatar.png" alt class="avatar" />
+        </div>
+        <div class="column">
+          <h1 class="title is-1">Logan Toler</h1>
+          <div class="columns is-mobile is-align-items-center is-centered">
+            <div class="column is-3 social-icon-align">
               <a
                 href="https://github.com/tolerl1/"
                 target="_blank"
@@ -35,6 +36,8 @@
                   </g>
                 </svg>
               </a>
+            </div>
+            <div class="column is-3 social-icon-align">
               <a
                 href="https://www.linkedin.com/in/logantoler/"
                 target="_blank"
@@ -60,8 +63,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
   </div>
+</section>
+</div>
 </template>
 
 <script>

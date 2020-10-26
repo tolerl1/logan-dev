@@ -13,7 +13,7 @@
         </section>
       </div>
       <aboutDetails/>
-      <foot/>
+      <end/>
     </body>
   </div>
 </template>
@@ -21,13 +21,13 @@
 <script>
 import banner from '@/components/banner.vue'
 import aboutDetails from '@/components/aboutDetails.vue'
-import foot from '@/components/footer.vue'
+import end from '@/components/end.vue'
 
 export default {
   components: {
     banner,
     aboutDetails,
-    foot
+    end
   }
 }
 </script>

@@ -2,7 +2,7 @@
   <div class="home">
     <banner/>
     <body>
-      <foot/>
+      <end/>
     </body>
   </div>
 </template>
@@ -10,13 +10,13 @@
 <script>
 // @ is an alias to /src
 import banner from '@/components/banner.vue'
-import foot from '@/components/footer.vue'
+import end from '@/components/end.vue'
 
 export default {
   name: 'Home',
   components: {
     banner,
-    foot
+    end
   }
 }
 </script>

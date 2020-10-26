@@ -10,19 +10,19 @@
       </div>
     </section>
     <body>
-      <foot/>
+      <end/>
     </body>
   </div>
 </template>
 
 <script>
-import foot from '@/components/footer.vue'
+import end from '@/components/end.vue'
 // import hero from '@/components/hero.vue'
 
 export default {
   name: 'Error',
   components: {
-    foot
+    end
   }
 }
 </script>
