@@ -73,18 +73,25 @@ export default {
 
 <style scoped>
 .avatar {
-  width: 15rem;
+  width: 13rem;
 }
-
 .git-white {
   fill: #fff;
   fill-rule: evenodd;
 }
 
 .name {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2;
+}
+
+@media (min-width: 576px) {
+  .name {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
 }
 
 @media (min-width: 768px) {
@@ -103,5 +110,6 @@ export default {
   }
 }
 
- /* end of name heading size */
+/* end of name heading size */
+
 </style>

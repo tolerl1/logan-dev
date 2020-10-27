@@ -1,23 +1,34 @@
 <template>
   <div id="app">
     <div id="nav">
-    <b-navbar :fixed-top=true slot="burger" type="is-light" :transparent=true aria-label="main navigation">
+      <b-navbar
+        :fixed-top="true"
+        slot="burger"
+        type="is-light"
+        aria-label="main navigation"
+        transparent="true"
+      >
         <template slot="brand">
-            <b-navbar-item tag="router-link" to="/">
-                <img src="./assets/brand.svg" alt="Logan Toler" width="112" height="28">
-            </b-navbar-item>
+          <b-navbar-item tag="router-link" :to="{ path: '/' }">
+            <img
+              src="./assets/brand.svg"
+              alt="Logan Toler"
+              width="112"
+              height="28"
+            />
+          </b-navbar-item>
         </template>
-        <template slot="start" aria-label="menu" aria-expanded="false">
-            <b-navbar-item tag="router-link" to="/" class="is-active" exact>
-                Home
-            </b-navbar-item>
-            <b-navbar-item tag="router-link" to="/about" class="is-active" exact>
-                About
-            </b-navbar-item>
+        <template slot="start" aria-label="menu" aria-expanded="false" class="is-boxed">
+          <b-navbar-item tag="router-link" to="/" class="is-active" exact>
+            Home
+          </b-navbar-item>
+          <b-navbar-item tag="router-link" to="/about" class="is-active" exact>
+            About
+          </b-navbar-item>
         </template>
-    </b-navbar>
+      </b-navbar>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -33,9 +44,9 @@ export default {
 </script>-->
 
 <style lang="scss">
-  @import './plugins/styles.scss';
+@import "./plugins/styles.scss";
 
-  #nav {
+#nav {
   a {
     color: #000;
 
