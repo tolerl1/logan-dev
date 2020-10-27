@@ -19,10 +19,10 @@
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="35"
-                  height="35"
+                  width="40"
+                  height="40"
                   viewBox="0 0 32.58 31.77"
-                  class="git-white"
+                  class="git-white mt-3 mr-6"
                 >
                   <title>GitHub</title>
                   <g id="Layer_2" data-name="Layer 2">
@@ -45,9 +45,10 @@
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
-                  width="35"
-                  height="35"
+                  width="40"
+                  height="40"
                   viewBox="0 0 100 100"
+                  class="mt-3 ml-5"
                 >
                   <image
                     width="100"
@@ -74,55 +75,16 @@ export default {
 .avatar {
   width: 15rem;
 }
+
 .git-white {
   fill: #fff;
   fill-rule: evenodd;
 }
 
-@media only screen and (max-width: 576px) {
-  .social-icon-align {
-    -ms-flex-pack: center !important;
-  }
-}
-
-@media only screen and (min-width: 577px) {
-  .social-icon-align {
-    -ms-flex-pack: end !important;
-  }
-}
-
-@media (max-width: 575px) {
-  .social-icon-col {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-}
-
-@media (min-width: 576px) {
-  .social-icon-col {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-}
-
-/* end of text alignment for social links */
-
-/* name heading size */
-
 .name {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1.2;
-}
-
-@media (min-width: 576px) {
-  .name {
-    font-size: 4rem;
-    font-weight: 300;
-    line-height: 1.2;
-  }
 }
 
 @media (min-width: 768px) {
@@ -141,13 +103,5 @@ export default {
   }
 }
 
-@media (min-width: 1200px) {
-  .name {
-    font-size: 8rem;
-    font-weight: 250;
-    line-height: 1.2;
-  }
-}
-
-/* end of name heading size */
+ /* end of name heading size */
 </style>
