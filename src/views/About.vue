@@ -1,6 +1,5 @@
 <template>
   <div class="about">
-    <banner/>
     <body>
       <div class="aboutHeader">
         <section class="section">
@@ -19,13 +18,11 @@
 </template>
 
 <script>
-import banner from '@/components/banner.vue'
 import aboutDetails from '@/components/aboutDetails.vue'
 import end from '@/components/end.vue'
 
 export default {
   components: {
-    banner,
     aboutDetails,
     end
   }
