@@ -3,9 +3,7 @@
         "Quantity": 5,
         "Items": [
             "/index.html",
-            "/favicon.ico",
             "/js",
-            "/img",
             "/css"
         ]
     },
