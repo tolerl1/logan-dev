@@ -44,17 +44,9 @@ Temporary Items
 
 # Log files
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
 
 # Editor directories and files
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-/node_modules
-/inter
-.vscode/settings.json
+node_modules
+inter
+dist

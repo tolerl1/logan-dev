@@ -9,6 +9,8 @@ $knoxville-gradient: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 // $navbar-item-hover-background-color: rgb(172, 172, 172);
 // $navbar-item-active-background-color: #000;
 // $navbar-tab-active-background-color: #000;
+
+$title-weight: 400;
 // $section-padding: 2rem 1.5rem;
 $primary: #293241;
 
@@ -16,12 +18,12 @@ $primary: #293241;
 @import "~bulma/sass/utilities/_all.sass";
 @import "~bulma/sass/base/_all.sass";
 
-//helpers
-// @import "~bulma/sass/helpers/_all.sass";
-@import "~bulma/sass/helpers/typography.sass";
-@import "~bulma/sass/helpers/spacing.sass";
-@import "~bulma/sass/helpers/position.sass";
-@import "~bulma/sass/helpers/visibility.sass";
+// helpers
+@import "~bulma/sass/helpers/_all.sass";
+// @import "~bulma/sass/helpers/typography.sass";
+// @import "~bulma/sass/helpers/spacing.sass";
+// @import "~bulma/sass/helpers/position.sass";
+// @import "~bulma/sass/helpers/visibility.sass";
 
 // @import "~bulma/sass/elements/button.sass";
 @import "~bulma/sass/elements/container.sass";

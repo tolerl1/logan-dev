@@ -2,11 +2,11 @@
   <div id="app">
     <div id="nav">
       <b-navbar
-        :fixed-top="true"
+        :fixed-top=true
         slot="burger"
         type="is-light"
         aria-label="main navigation"
-        transparent="true"
+        :transparent=true
       >
         <template slot="brand">
           <b-navbar-item tag="router-link" :to="{ path: '/' }">
