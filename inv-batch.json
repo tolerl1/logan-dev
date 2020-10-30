@@ -1,10 +1,11 @@
 {
     "Paths": {
-        "Quantity": 3,
+        "Quantity": 4,
         "Items": [
             "/index.html",
             "/js",
-            "/css"
+            "/css",
+            "/img"
         ]
     },
     "CallerReference": "GitHub-Actions-ltd"
