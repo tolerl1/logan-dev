@@ -1,7 +1,7 @@
 <template>
   <div class="aboutDetails">
     <div class="container">
-      <div class="columns is-mobile">
+      <div class="columns is-tablet">
         <div class="column">
           <p class="has-text-weight-normal">
             I'm a Technology Professional with a degree in Information Technology,
