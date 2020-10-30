@@ -10,9 +10,9 @@
         </div>
         <div class="column">
           <p class="has-text-weight-normal">
-            Industry experience in utilities through application support roles with Duke Energy
-            and in FinServ building chatbots for companies like SunTrust Bank, AIG,
-            Ally Bank, QuickenLoans.
+            I have industry experience in utilities through application support roles
+            with Duke Energy and in FinServ building chatbots for companies like SunTrust Bank,
+            AIG, Ally Bank, and QuickenLoans.
           </p>
         </div>
       </div>
