@@ -4,7 +4,7 @@
       <div class="hero-body">
         <div class="level">
           <div class="level-item has-text-centered">
-            <img src="@/assets/avatar.png" width="208" />
+            <img src="@/assets/avatar.png" alt="avatar picture" style="width: 13rem" />
           </div>
           <div class="level-item has-text-centered">
             <div class="content">
