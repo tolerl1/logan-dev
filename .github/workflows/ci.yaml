@@ -20,8 +20,10 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
-      - name: build app
+      - name: create node env
         uses: actions/setup-node@master
+      
+      - name: build app
         run: npm install
         run: npm run build
         
