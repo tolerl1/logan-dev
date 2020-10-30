@@ -4,12 +4,18 @@
       <div class="hero-body">
         <div class="level">
           <div class="level-item has-text-centered">
-            <img src="@/assets/avatar.png" alt class="avatar" />
+            <img src="@/assets/avatar.png" width="208" />
           </div>
           <div class="level-item has-text-centered">
-            <div>
-              <p class="name">Logan Toler</p>
-              <p class="subtitle">Cincinnati, OH | Charlotte, NC</p>
+            <div class="content">
+              <h1
+                class="title is-size-5-mobile has-text-weight-normal is-spaced"
+              >
+                Logan Toler
+              </h1>
+              <p class="subtitle is-size-6-mobile">
+                Cincinnati, OH | Charlotte, NC
+              </p>
               <a
                 href="https://github.com/tolerl1/"
                 target="_blank"
@@ -22,7 +28,7 @@
                   width="40"
                   height="40"
                   viewBox="0 0 32.58 31.77"
-                  class="git-white mt-3 mr-6"
+                  class="git-white mr-6"
                 >
                   <title>GitHub</title>
                   <g id="Layer_2" data-name="Layer 2">
@@ -48,7 +54,7 @@
                   width="40"
                   height="40"
                   viewBox="0 0 100 100"
-                  class="mt-3 ml-5"
+                  class="ml-5"
                 >
                   <image
                     width="100"
@@ -65,21 +71,19 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'banner'
-}
-</script>
-
 <style scoped>
-.avatar {
-  width: 13rem;
-}
 .git-white {
   fill: #fff;
   fill-rule: evenodd;
 }
 
+/*
+.avatar {
+  width: 13rem;
+}
+*/
+
+/*
 .name {
   font-size: 3rem;
   font-weight: 300;
@@ -111,5 +115,4 @@ export default {
 }
 
 /* end of name heading size */
-
 </style>

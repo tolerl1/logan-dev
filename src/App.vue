@@ -2,11 +2,11 @@
   <div id="app">
     <div id="nav">
       <b-navbar
-        :fixed-top="true"
+        :fixed-top=true
         slot="burger"
         type="is-light"
         aria-label="main navigation"
-        transparent="true"
+        :transparent=true
       >
         <template slot="brand">
           <b-navbar-item tag="router-link" :to="{ path: '/' }">
@@ -19,10 +19,10 @@
           </b-navbar-item>
         </template>
         <template slot="start" aria-label="menu" aria-expanded="false" class="is-boxed">
-          <b-navbar-item tag="router-link" to="/" class="is-active" exact>
+          <b-navbar-item tag="router-link" to="/">
             Home
           </b-navbar-item>
-          <b-navbar-item tag="router-link" to="/about" class="is-active" exact>
+          <b-navbar-item tag="router-link" to="/about">
             About
           </b-navbar-item>
         </template>

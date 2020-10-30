@@ -16,12 +16,12 @@ $primary: #293241;
 @import "~bulma/sass/utilities/_all.sass";
 @import "~bulma/sass/base/_all.sass";
 
-//helpers
-// @import "~bulma/sass/helpers/_all.sass";
-@import "~bulma/sass/helpers/typography.sass";
-@import "~bulma/sass/helpers/spacing.sass";
-@import "~bulma/sass/helpers/position.sass";
-@import "~bulma/sass/helpers/visibility.sass";
+// helpers
+@import "~bulma/sass/helpers/_all.sass";
+// @import "~bulma/sass/helpers/typography.sass";
+// @import "~bulma/sass/helpers/spacing.sass";
+// @import "~bulma/sass/helpers/position.sass";
+// @import "~bulma/sass/helpers/visibility.sass";
 
 // @import "~bulma/sass/elements/button.sass";
 @import "~bulma/sass/elements/container.sass";

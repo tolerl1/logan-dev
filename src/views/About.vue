@@ -3,15 +3,15 @@
     <body>
       <div class="aboutHeader">
         <section class="section">
-          <div class="container">
-            <h1 class="title is-2 ">About</h1>
+          <div class="container mb-4">
+            <h1 class="title is-2">About</h1>
             <h2 class="subtitle is-4 has-text-weight-normal">
-              Technology professional based out of Cincinnati, OH and Charlotte, NC.
+              Based in Cincinnati, OH and Charlotte, NC.
             </h2>
           </div>
+          <aboutDetails/>
         </section>
       </div>
-      <aboutDetails/>
       <end/>
     </body>
   </div>

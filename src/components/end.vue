@@ -10,12 +10,6 @@
 </div>
 </template>
 
-<script>
-export default {
-  name: 'end'
-}
-</script>
-
 <style scoped>
 .end {
     padding: 1rem 2rem 1rem
