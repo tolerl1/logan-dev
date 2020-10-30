@@ -23,7 +23,7 @@ jobs:
       - name: create node env
         uses: actions/setup-node@master
       
-      - name: setup app
+      - name: Install dependencies
         run: npm install
       
       - name: build app
