@@ -23,11 +23,13 @@ jobs:
       - name: create node env
         uses: actions/setup-node@master
       
-      - name: build app
+      - name: setup app
         run: npm install
+      
+      - name: build app
         run: npm run build
         
-      - name: Sync site to s3
+      - name: Sync app to s3
         run: aws s3 sync ./dist s3://$AWS_S3_BUCKET --follow-symlinks
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
