@@ -4,12 +4,18 @@
       <div class="hero-body">
         <div class="level">
           <div class="level-item has-text-centered">
-            <img src="@/assets/avatar.png" alt class="avatar" />
+            <img src="@/assets/avatar.png" width="208" />
           </div>
           <div class="level-item has-text-centered">
             <div class="content">
-              <h1 class="title is-size-5-mobile has-text-weight-normal is-spaced">Logan Toler</h1>
-              <p class="subtitle is-size-6-mobile">Cincinnati, OH | Charlotte, NC</p>
+              <h1
+                class="title is-size-5-mobile has-text-weight-normal is-spaced"
+              >
+                Logan Toler
+              </h1>
+              <p class="subtitle is-size-6-mobile">
+                Cincinnati, OH | Charlotte, NC
+              </p>
               <a
                 href="https://github.com/tolerl1/"
                 target="_blank"
@@ -65,21 +71,19 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'banner'
-}
-</script>
-
 <style scoped>
-.avatar {
-  width: 13rem;
-}
 .git-white {
   fill: #fff;
   fill-rule: evenodd;
 }
 
+/*
+.avatar {
+  width: 13rem;
+}
+*/
+
+/*
 .name {
   font-size: 3rem;
   font-weight: 300;
@@ -111,5 +115,4 @@ export default {
 }
 
 /* end of name heading size */
-
 </style>

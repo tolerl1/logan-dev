@@ -19,10 +19,10 @@
           </b-navbar-item>
         </template>
         <template slot="start" aria-label="menu" aria-expanded="false" class="is-boxed">
-          <b-navbar-item tag="router-link" to="/" class="is-active" exact>
+          <b-navbar-item tag="router-link" to="/">
             Home
           </b-navbar-item>
-          <b-navbar-item tag="router-link" to="/about" class="is-active" exact>
+          <b-navbar-item tag="router-link" to="/about">
             About
           </b-navbar-item>
         </template>
